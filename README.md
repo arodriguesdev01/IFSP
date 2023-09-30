@@ -1,2 +1,2 @@
-# IFSP
-Repositório de projetos desenvolvidos no IFSP.
+# Open Fashion
+Repositório do projeto Open Fashion desenvolvido em Flutter.
