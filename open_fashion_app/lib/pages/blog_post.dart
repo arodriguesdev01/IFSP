@@ -10,13 +10,13 @@ class BlogPost extends StatelessWidget {
         backgroundColor: Colors.white,
         leading: Image.asset('assets/menu_icon.png'),
       ),
-      body: Container(
+      body: ListView(
         children: [
           Image.asset(
             'assets/banner_blog.png',
             width: 375,
             height: 223,
-            fit: BoxFit.fill,
+            fit: BoxFit.none,
           ),
           titleSection,
           textSection,
@@ -24,8 +24,9 @@ class BlogPost extends StatelessWidget {
             'assets/model.png',
             width: 343,
             height: 451,
-            fit: BoxFit.fill,
-          )
+            fit: BoxFit.none,
+          ),
+          textSection2,
         ],
       )
     );

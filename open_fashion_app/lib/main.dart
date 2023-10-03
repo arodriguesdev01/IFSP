@@ -40,3 +40,18 @@ Widget textSection = Container(
     softWrap: true,
   ),
 );
+
+Widget textSection2 = Container(
+  padding: const EdgeInsets.all(32),
+  child: const Text(
+    'I found this Saint Laurent canvas handbag this summer and immediately fell in love.' 
+    'The neutral fabrics are so beautiful and I like how this handbag can also carry into fall.'
+    'The mini Fendi bucket bag with the sheer fabric is so fun and such a statement bag.' 
+    'Also this DeMellier off white bag is so cute to carry to a dinner with you or going out, it’s small but not too small to fit your phone and keys still.',
+    style:TextStyle(
+      fontWeight:FontWeight.w400,
+      fontSize: 14,
+    ),
+    softWrap: true,
+  ),
+);
