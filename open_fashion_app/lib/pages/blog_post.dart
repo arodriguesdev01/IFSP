@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:open_fashion_app/main.dart';
 
 class BlogPost extends StatelessWidget {
   @override
@@ -10,8 +11,23 @@ class BlogPost extends StatelessWidget {
         leading: Image.asset('assets/menu_icon.png'),
       ),
       body: Container(
-        child: Image.asset('assets/banner_blog.png'),
-      ),
+        children: [
+          Image.asset(
+            'assets/banner_blog.png',
+            width: 375,
+            height: 223,
+            fit: BoxFit.fill,
+          ),
+          titleSection,
+          textSection,
+          Image.asset(
+            'assets/model.png',
+            width: 343,
+            height: 451,
+            fit: BoxFit.fill,
+          )
+        ],
+      )
     );
   }
 }
