@@ -27,6 +27,8 @@ class BlogPost extends StatelessWidget {
             fit: BoxFit.none,
           ),
           textSection2,
+          postInfo,
+          postButtons,
         ],
       )
     );

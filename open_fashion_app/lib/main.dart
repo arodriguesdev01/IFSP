@@ -55,3 +55,27 @@ Widget textSection2 = Container(
     softWrap: true,
   ),
 );
+
+Widget postInfo = Container(
+  padding: const EdgeInsets.all(32),
+  child: const Text(
+    'Posted by OpenFashion | 3 Days ago',
+    style:TextStyle(
+      fontWeight:FontWeight.w400,
+      fontSize: 14,
+    ),
+    softWrap: true,
+  ),
+);
+
+Widget postButtons = Container(
+  padding: const EdgeInsets.all(32),
+  child: const Text(
+    '#Fashion     #Tips',
+    style:TextStyle(
+      fontWeight:FontWeight.w400,
+      fontSize: 14,
+    ),
+    softWrap: true,
+  ),
+);
