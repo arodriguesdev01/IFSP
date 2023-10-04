@@ -8,7 +8,8 @@ class BlogPost extends StatelessWidget {
       appBar: AppBar(
         title: Text('Blog Post'),
         backgroundColor: Colors.white,
-        leading: Image.asset('assets/menu_icon.png'),
+        actions: [headerSection],
+        //leading: Image.asset('assets/menu_icon.png'),
       ),
       body: ListView(
         children: [

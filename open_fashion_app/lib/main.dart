@@ -79,3 +79,33 @@ Widget postButtons = Container(
     softWrap: true,
   ),
 );
+
+Widget headerSection = Row(
+  mainAxisAlignment: MainAxisAlignment.start,
+  children: <Widget> [
+    Image.asset(
+      'assets/menu_icon.png',
+       width: 24,
+       height: 25,
+       fit: BoxFit.none,
+    ),
+    Image.asset(
+      'assets/logo.png',
+       width: 79,
+       height: 32,
+       fit: BoxFit.none,
+    ),
+    Image.asset(
+      'assets/search_icon.png',
+       width: 24,
+       height: 24,
+       fit: BoxFit.none,
+    ),
+    Image.asset(
+      'assets/shopping_bag_icon.png',
+       width: 24,
+       height: 24,
+       fit: BoxFit.none,
+    ),
+  ],
+);
