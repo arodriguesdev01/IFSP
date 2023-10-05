@@ -81,31 +81,36 @@ Widget postButtons = Container(
 );
 
 Widget headerSection = Row(
-  mainAxisAlignment: MainAxisAlignment.start,
-  children: <Widget> [
+  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+  children: [
     Image.asset(
       'assets/menu_icon.png',
-       width: 24,
-       height: 25,
-       fit: BoxFit.none,
+       //width: 24,
+       //height: 25,
+       //fit: BoxFit.none,
     ),
+    SizedBox(width: 85),
     Image.asset(
       'assets/logo.png',
-       width: 79,
-       height: 32,
-       fit: BoxFit.none,
+       //width: 79,
+       //height: 32,
+       //fit: BoxFit.none,
     ),
+    SizedBox(width: 55),
     Image.asset(
       'assets/search_icon.png',
-       width: 24,
-       height: 24,
-       fit: BoxFit.none,
+       //width: 24,
+       //height: 24,
+       //fit: BoxFit.none,
     ),
+    SizedBox(width: 15),
     Image.asset(
       'assets/shopping_bag_icon.png',
-       width: 24,
-       height: 24,
-       fit: BoxFit.none,
+       //width: 24,
+       //height: 24,
+       //fit: BoxFit.none,
     ),
   ],
 );
+
+

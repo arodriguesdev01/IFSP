@@ -9,7 +9,6 @@ class BlogPost extends StatelessWidget {
         title: Text('Blog Post'),
         backgroundColor: Colors.white,
         actions: [headerSection],
-        //leading: Image.asset('assets/menu_icon.png'),
       ),
       body: ListView(
         children: [
